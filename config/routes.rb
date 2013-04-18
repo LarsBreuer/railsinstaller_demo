@@ -1,4 +1,8 @@
 RailsinstallerDemo::Application.routes.draw do
+  resources :spielers
+
+  resources :teams
+
   get "welcome/index"
 
   # The priority is based upon order of creation:

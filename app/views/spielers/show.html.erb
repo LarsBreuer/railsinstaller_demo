@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Spielername:</b>
+  <%= @spieler.spielerName %>
+</p>
+
+<p>
+  <b>Teamid:</b>
+  <%= @spieler.teamID %>
+</p>
+
+
+<%= link_to 'Edit', edit_spieler_path(@spieler) %> |
+<%= link_to 'Back', spielers_path %>

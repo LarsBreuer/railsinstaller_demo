@@ -1,0 +1,25 @@
+<%= form_for(@spieler) do |f| %>
+  <% if @spieler.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@spieler.errors.count, "error") %> prohibited this spieler from being saved:</h2>
+
+      <ul>
+      <% @spieler.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :spielerName %><br />
+    <%= f.text_field :spielerName %>
+  </div>
+  <div class="field">
+    <%= f.label :teamID %><br />
+    <%= f.number_field :teamID %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
