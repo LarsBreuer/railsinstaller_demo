@@ -1,4 +1,8 @@
 RailsinstallerDemo::Application.routes.draw do
+  resources :tickers
+
+  resources :games
+
   resources :spielers
 
   resources :teams

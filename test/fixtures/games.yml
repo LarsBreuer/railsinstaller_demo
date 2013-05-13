@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  teamHeim: 1
+  teamAuswaerts: 1
+  toreHeim: 1
+  toreAuswaerts: 1
+
+two:
+  teamHeim: 1
+  teamAuswaerts: 1
+  toreHeim: 1
+  toreAuswaerts: 1

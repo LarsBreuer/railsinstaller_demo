@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Aktion id:</b>
+  <%= @ticker.aktion_ID %>
+</p>
+
+<p>
+  <b>Spieler id:</b>
+  <%= @ticker.spieler_ID %>
+</p>
+
+
+<%= link_to 'Edit', edit_ticker_path(@ticker) %> |
+<%= link_to 'Back', tickers_path %>

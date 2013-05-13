@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  aktion_ID: 1
+  spieler_ID: 1
+
+two:
+  aktion_ID: 1
+  spieler_ID: 1
